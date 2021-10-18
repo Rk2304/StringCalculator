@@ -8,7 +8,7 @@ class StringCalculator {
         char[] arr=input.toCharArray();
         int[] b=new int[arr.length];
         for(int i=0;i<arr.length;i++){
-          if(arr[i]!=',' && arr[i]!='\n' && arr[i]!=';')
+          if(if(arr[i]!=',' && arr[i]!='\n' && arr[i]!=';' && arr[i]!='*' && arr[i]!='%'))
           {
               b[i]=arr[i];
           }
